@@ -76,14 +76,14 @@
                 <artifactId>appengine-maven-plugin</artifactId>
                 <version>1.9.18</version>
                 
-                <configuration>
+<!--                <configuration>
         			<jvmFlags>
             			<jvmFlag>-Xdebug</jvmFlag>
             			<jvmFlag>-Xrunjdwp:transport=dt_socket,address=8080,server=y,suspend=y
             			</jvmFlag>
         			</jvmFlags>
         		<disableUpdateCheck>true</disableUpdateCheck> 
-    </configuration> 
+    </configuration> --> 
             </plugin>
     </plugins>
   </build>
